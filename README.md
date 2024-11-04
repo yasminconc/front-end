@@ -10,7 +10,7 @@ front-end-arvore.vercel.app
 
 <br/>  
 
-## 🔰 Requisitos e funcinalidades pedidas
+## 🔰 Requisitos e funcionalidades pedidas
 
 * Desenvolver um site que tenha uma página com um gráfico de cotação do real frente a outras moedas.
 * Para criar o gráfico, é preciso usar o highcharts para apresentação dos dados;
@@ -46,7 +46,15 @@ front-end-arvore.vercel.app
 
 #
 
+![image](https://github.com/user-attachments/assets/ce11af64-ca74-44ac-88a3-516e05a334c3)
+
+#
+
 ![image](https://github.com/user-attachments/assets/485c3e7a-0d7e-4eca-896c-6c0ea64c6202)
+
+#
+
+![image](https://github.com/user-attachments/assets/b25aa5cc-ffce-4f4e-860c-8e90c727f19f)
 
 #
 
@@ -78,4 +86,5 @@ front-end-arvore.vercel.app
 
 #
 
-![image](https://github.com/user-attachments/assets/5d3b4e45-4482-42f8-801b-8add83f2eebd)
+![image](https://github.com/user-attachments/assets/b92341af-cca9-41f8-b35b-1420a404aa09)
+
