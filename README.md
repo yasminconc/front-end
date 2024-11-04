@@ -1,50 +1,81 @@
-# React + TypeScript + Vite
+# 🌳 Case Árvore
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h4>Projeto desenvolvido individualmente com base no desafio da Árvore, com o objetivo de desenvolver uma aplicação Web de conversão de moedas<h4/>
 
-Currently, two official plugins are available:
+<br/>  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Link do Vercel
 
-## Expanding the ESLint configuration
+front-end-arvore.vercel.app
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<br/>  
 
-- Configure the top-level `parserOptions` property like this:
+## 🔰 Requisitos e funcinalidades pedidas
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+* Desenvolver um site que tenha uma página com um gráfico de cotação do real frente a outras moedas.
+* Para criar o gráfico, é preciso usar o highcharts para apresentação dos dados;
+* É preciso fazer 3 telas: 
+* Página de login simples, contendo um campo para login e outro para senha, além de um botão para logar. Não precisa seguir um design específico.
+* Página de cadastro simples, contendo os campos de nome, e-mail, data de nascimento e senha. Não precisa seguir um design específico.
+* Página com o gráfico, que apresente a cotação dos últimos sete dias para real versus dólar, euro e pesos argentinos. A página deve ter três botões (um para cada uma das moedas) e, ao clicar nos botões, apareceria o gráfico de linha com os valores abaixo dos botões. Parecido com esse site aqui: http://economia.uol.com.br/cotacoes/cambio/euro-uniao-europeia/.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+<br/> 
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 🛠 ferramentas e tecnologias
+
+* React
+* Typescript
+* Axios
+* Tailwind
+* Zod
+* React hook form
+* Highcharts
+
+<br/>  
+
+
+
+##  📸 imagens do projeto
+
+![image](https://github.com/user-attachments/assets/ebde8f04-20b6-43dd-b0bf-8d983eb376ac)
+
+#
+
+![image](https://github.com/user-attachments/assets/ef937a59-8ac3-456c-af3e-f0d3dcc07728)
+
+#
+
+![image](https://github.com/user-attachments/assets/485c3e7a-0d7e-4eca-896c-6c0ea64c6202)
+
+#
+
+![image](https://github.com/user-attachments/assets/7b73e7f3-8b93-425b-9291-bbda9e5d9a62)
+
+#
+
+![image](https://github.com/user-attachments/assets/5be9f812-ce90-4d1b-93c5-fa784a824c0f)
+
+
+#
+
+![image](https://github.com/user-attachments/assets/54472a19-17c0-4367-a555-5500fe43b840)
+
+
+#
+
+![image](https://github.com/user-attachments/assets/c1da19c3-adc8-452c-906c-8524a68c5c98)
+
+
+#
+
+![image](https://github.com/user-attachments/assets/265cf9d1-9cd0-48ec-8620-d02eb4a740fe)
+
+#
+
+![image](https://github.com/user-attachments/assets/2f5dc150-3902-4310-9560-be7216efdc3e)
+
+
+#
+
+![image](https://github.com/user-attachments/assets/5d3b4e45-4482-42f8-801b-8add83f2eebd)
